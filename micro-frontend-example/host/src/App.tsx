@@ -6,16 +6,16 @@ import "./index.scss";
 
 import Header from "layout/Header";
 import Footer from "layout/Footer";
-import OutdoorEventsNepal from "pages/OutdoorEventsNepal";
-import Recipe from "pages/Recipe";
+import OutdoorEvents from "pages/OutdoorEvents";
+import Event from "pages/Event";
 
 const App = () => (
   <div className="flex flex-col min-h-screen">
     <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<OutdoorEventsNepal />} />
-          <Route path="/outdoorEventsNepal/:slug" element={<Recipe />} />
+          <Route path="/" element={<OutdoorEvents />} />
+          <Route path="/outdoorEvents/:slug" element={<Event />} />
         </Routes>
       </BrowserRouter>
     <Footer />

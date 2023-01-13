@@ -45,8 +45,8 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-        "./OutdoorEventsNepal": "./src/OutdoorEventsNepal.tsx",
-        "./Recipe": "./src/Recipe.tsx",
+        "./OutdoorEvents": "./src/OutdoorEvents.tsx",
+        "./Event": "./src/Event.tsx",
       },
       shared: {
         ...deps,
