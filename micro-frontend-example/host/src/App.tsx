@@ -6,7 +6,7 @@ import "./index.scss";
 
 import Header from "layout/Header";
 import Footer from "layout/Footer";
-import Restaurants from "pages/Restaurants";
+import OutdoorEventsNepal from "pages/OutdoorEventsNepal";
 import Recipe from "pages/Recipe";
 
 const App = () => (
@@ -14,8 +14,8 @@ const App = () => (
     <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Restaurants />} />
-          <Route path="/restaurants/:slug" element={<Recipe />} />
+          <Route path="/" element={<OutdoorEventsNepal />} />
+          <Route path="/outdoorEventsNepal/:slug" element={<Recipe />} />
         </Routes>
       </BrowserRouter>
     <Footer />

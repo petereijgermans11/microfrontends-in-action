@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {outdoorEventsNepal} from "./data";
 
-export default function Restaurants() {
+export default function OutdoorEventsNepal() {
   console.log(outdoorEventsNepal);
   return (
     <div className="my-4 px-4 text-center">
-      <h1 className="text-gray-600 text-xl mb-2">Recipes</h1>
+      <h1 className="text-gray-600 text-xl mb-2">Outdoor Events Nepal</h1>
       <div className="grid grid-cols-3 gap-4">
         {outdoorEventsNepal.map(recipe => (
           <Card

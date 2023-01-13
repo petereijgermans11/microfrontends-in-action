@@ -1,10 +1,10 @@
 import React from "react";
 import {useParams} from 'react-router-dom';
-import { restaurants } from "./data";
+import { outdoorEventsNepal } from "./data";
 
 export default function Recipe() {
   const { slug } = useParams();
-  const recipe = restaurants.find(recipe => recipe.slug === slug);
+  const recipe = outdoorEventsNepal.find(recipe => recipe.slug === slug);
 
   return (
     <div className="my-6 px-4 mx-auto grid gap-4 grid-cols-2">

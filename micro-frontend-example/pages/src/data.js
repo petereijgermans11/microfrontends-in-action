@@ -1,4 +1,4 @@
-export const restaurants = [
+export const outdoorEventsNepal = [
   {
     slug: "chicken-tikka-masala",
     title: "Chicken Tikka Masala",
