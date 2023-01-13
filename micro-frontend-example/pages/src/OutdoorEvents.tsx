@@ -1,21 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {outdoorEventsNepal} from "./data";
+import {outdoorEvents} from "./data";
 
-export default function OutdoorEventsNepal() {
-  console.log(outdoorEventsNepal);
+export default function OutdoorEvents() {
+  console.log(outdoorEvents);
   return (
     <div className="my-4 px-4 text-center">
       <h1 className="text-gray-600 text-xl mb-2">Outdoor Events Nepal</h1>
       <div className="grid grid-cols-3 gap-4">
-        {outdoorEventsNepal.map(recipe => (
+        {outdoorEvents.map(event => (
           <Card
-            key={recipe.slug}
-            title={recipe.title}
-            slug={recipe.slug}
-            description={recipe.description}
-            image={recipe.image}
-            imageTitle={recipe.imageTitle}
+            key={event.slug}
+            title={event.title}
+            slug={event.slug}
+            description={event.description}
+            image={event.image}
+            imageTitle={event.imageTitle}
           />
         ))}
       </div>
@@ -32,7 +32,7 @@ function Card({ title, slug, description, image, imageTitle }) {
       <div className="p-6">
         <h2 className="text-gray-900 text-lg font-medium mb-2">{title}</h2>
         <p className="text-gray-700">{description}</p>
-        <Link to={`/outdoorEventsNepal/${slug}`} className="inline-block px-6 py-2 bg-blue-600 text-white font-medium text-xs  shadow-md">See Recipe</Link>
+        <Link to={`/outdoorEventsNepal/${slug}`} className="inline-block px-6 py-2 bg-blue-600 text-white font-medium text-xs  shadow-md">Order event</Link>
       </div>
     </div>
   );
