@@ -46,7 +46,6 @@ module.exports = {
       remotes: {},
       exposes: {
         "./OutdoorEvents": "./src/OutdoorEvents.tsx",
-        "./Event": "./src/Event.tsx",
       },
       shared: {
         ...deps,
