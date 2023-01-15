@@ -6,8 +6,8 @@ import "./index.scss";
 
 import Header from "layout/Header";
 import Footer from "layout/Footer";
-import OutdoorEvents from "pages/OutdoorEvents";
-import Event from "event/Event";
+import OutdoorEvents from "outdoorevents/OutdoorEvents";
+import OutdoorEvent from "outdoorevent/OutdoorEvent";
 
 const App = () => (
   <div className="flex flex-col min-h-screen">
@@ -15,7 +15,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<OutdoorEvents />} />
-          <Route path="/outdoorEvents/:slug" element={<Event />} />
+          <Route path="/outdoorEvents/:slug" element={<OutdoorEvent />} />
         </Routes>
       </BrowserRouter>
     <Footer />

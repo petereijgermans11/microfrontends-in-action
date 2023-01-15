@@ -45,8 +45,8 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {
         layout: "layout@http://localhost:3001/remoteEntry.js",
-        pages: "pages@http://localhost:3002/remoteEntry.js",
-        event: "event@http://localhost:3003/remoteEntry.js",
+        outdoorevents: "outdoorevents@http://localhost:3002/remoteEntry.js",
+        outdoorevent: "outdoorevent@http://localhost:3003/remoteEntry.js",
       },
       exposes: {},
       shared: {

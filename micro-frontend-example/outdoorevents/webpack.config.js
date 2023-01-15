@@ -41,7 +41,7 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "pages",
+      name: "outdoorevents",
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {

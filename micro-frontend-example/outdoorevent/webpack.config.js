@@ -41,11 +41,11 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: "event",
+      name: "outdoorevent",
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-        "./Event": "./src/Event.tsx"
+        "./OutdoorEvent": "./src/OutdoorEvent.tsx"
       },
       shared: {
         ...deps,
