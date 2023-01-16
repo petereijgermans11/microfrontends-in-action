@@ -7,7 +7,7 @@ import "./index.scss";
 import Header from "layout/Header";
 import Footer from "layout/Footer";
 import OutdoorEvents from "outdoorevents/OutdoorEvents";
-import OutdoorEvent from "outdoorevent/OutdoorEvent";
+import OutdoorEvent from "bookevent/OutdoorEvent";
 
 const App = () => (
   <div className="flex flex-col min-h-screen">

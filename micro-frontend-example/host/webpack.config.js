@@ -46,7 +46,7 @@ module.exports = {
       remotes: {
         layout: "layout@http://localhost:3001/remoteEntry.js",
         outdoorevents: "outdoorevents@http://localhost:3002/remoteEntry.js",
-        outdoorevent: "outdoorevent@http://localhost:3003/remoteEntry.js",
+        bookevent: "bookevent@http://localhost:3003/remoteEntry.js",
       },
       exposes: {},
       shared: {

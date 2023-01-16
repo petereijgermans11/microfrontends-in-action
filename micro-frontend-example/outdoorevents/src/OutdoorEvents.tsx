@@ -35,7 +35,7 @@ function Card({ title, slug, description, image, imageTitle }) {
       <div className="p-6">
         <h2 className="text-gray-900 text-lg font-medium mb-2">{title}</h2>
         <p className="text-gray-700">{description}</p>
-        <Link to={`/outdoorEvents/${slug}`} className="inline-block px-6 py-2 bg-yellow-500 text-white font-medium text-xs  shadow-md">Reserve event</Link>
+        <Link to={`/outdoorEvents/${slug}`} className="inline-block px-6 py-2 bg-yellow-500 text-white font-medium text-xs  shadow-md">Book event</Link>
       </div>
     </div>
   );
