@@ -99,7 +99,7 @@
     ```
     
 
-5. We can access angular-mfe module two ways in container applictaion.
+5. We can access angular-mfe module two ways in container application.
 
   
 5.1) Switch into the ``angular-mfe`` app and open the file ``webpack.config.js``
@@ -159,7 +159,8 @@
   ```
 
 
-
+    Make use of WebComponentWrapper to Encapsulate your components as web-components.
+See also: https://www.angulararchitects.io/aktuelles/multi-framework-and-version-micro-frontends-with-module-federation-your-4-steps-guide/
     Please note that the imported URL consists of the names defined in the configuration files above.
   
 
