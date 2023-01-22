@@ -65,7 +65,7 @@ export const outdoorEvents = [
     days: "Scotland Adventure - 3 days"
   },
   {
-    slug: "glacier-adventure ",
+    slug: "glacier-adventure",
     title: "Glacier adventure",
     description:
         "Join our experienced guides for a glacier adventure at Jostedal Glacier National Park The tour starts with a RIB-boat experience, to get into the wilderness. We walk in easy terrain to the glacier and into the blue ice world. This location is remote, and we will not see other people during our glacier walk.",
