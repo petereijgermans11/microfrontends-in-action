@@ -27,17 +27,6 @@ const routes: Routes = [
       elementName: 'react-element',
     } as WebComponentWrapperOptions,
   },
-  // {
-  //   path: 'react1',
-  //   component: WebComponentWrapper,
-  //   data: {
-  //     type: 'script',
-  //     remoteEntry: 'http://localhost:4204/remoteEntry.js',
-  //     remoteName: 'react',
-  //     exposedModule: './react-component-1',
-  //     elementName: 'react-component-1',
-  //   } as WebComponentWrapperOptions,
-  // }
 ];
 
 @NgModule({

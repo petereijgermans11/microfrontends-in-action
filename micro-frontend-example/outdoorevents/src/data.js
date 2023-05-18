@@ -4,8 +4,8 @@ export const outdoorEvents = [
     title: "Bardia National Park Nepal",
     description:
         "The park is home to endangered animals such as the Royal Bengal tiger, wild elephant, greater one-horned rhinoceros, swamp deer, and black buck.",
-    image:
-        "https://media.istockphoto.com/id/1446636157/nl/foto/asian-rhinoceros-standing-in-green-grass-alongside-a-river.jpg?s=612x612&w=0&k=20&c=_9Mp7sA0sTdEYuaSSamEpP_5c4zgyPabfpNWimMJQAM=",
+    image: 
+        "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/36/97/6c.jpg",
     imageTitle: "Rhino in Bardia park",
     price: "$350",
     days: "Nepal Bardia Adventure - 2 days"

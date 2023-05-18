@@ -49,8 +49,7 @@ function Card({ title, slug, description, image, imageTitle, price }) {
         <h2 className="text-gray-900 text-lg font-medium mb-2">{title} <strong>{price}</strong></h2>
         <p className="text-gray-700">{description}</p>
         <Link to={`/outdoorEvents/${slug}`} className="inline-block px-6 py-2 bg-yellow-500 text-white font-medium text-xs  shadow-md">Book event</Link>
-        <br/><br/>
-        <button className="inline-block px-6 py-2 bg-yellow-500 text-white font-medium text-xs  shadow-md" onClick={increment}>Add to Cart</button>
+        <button onClick={increment}>Increase</button>
       </div>
     </div>
   );
