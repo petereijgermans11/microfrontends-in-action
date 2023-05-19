@@ -22,7 +22,7 @@ export default function OutdoorEvent() {
                 <br/>
                 <p>{outdoorEvent.description}</p>
                 <br/>
-                <ul class="list-disc p-4" >
+                <ul className="list-disc p-4" >
                     <li>{outdoorEvent.highlight1}</li>
                     <li>{outdoorEvent.highlight2}</li>
                     <li>{outdoorEvent.highlight3}</li>

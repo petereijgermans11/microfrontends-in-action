@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { outdoorEvents } from "./data";
+import './index.scss';
 
 export default function OutdoorEvents() {
   return (
@@ -41,16 +42,16 @@ function Card({ title, slug, description, image, imageTitle, price }) {
   };
 
   return (
-    <div className="rounded-lg shadow-lg bg-white max-w-sm">
+    <div className="card">
       <Link to={`/outdoorEvents/${slug}`}>
         <img title={imageTitle} src={image} alt={title} />
       </Link>
       <div className="p-6">
-        <h2 className="text-gray-900 text-lg font-medium mb-2">{title} <strong>{price}</strong></h2>
+        <h2 className="title-price">{title} <strong>{price}</strong></h2>
         <p className="text-gray-700">{description}</p>
-        <Link to={`/outdoorEvents/${slug}`} className="inline-block px-6 py-2 bg-yellow-500 text-white font-medium text-xs  shadow-md">Book event</Link>
+        <Link to={`/outdoorEvents/${slug}`} className="book-or-add-to-cart">Book event</Link>
         <br/><br/>
-        <button className="inline-block px-6 py-2 bg-yellow-500 text-white font-medium text-xs  shadow-md" onClick={increment}>Add to Cart</button>
+        <button className="book-or-add-to-cart" onClick={increment}>Add to Cart</button>
       </div>
     </div>
   );

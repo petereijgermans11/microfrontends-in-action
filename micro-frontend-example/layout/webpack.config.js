@@ -8,7 +8,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
+    extensions: [".tsx", ".ts", ".jsx", ".js", ".json", ".jpg"],
   },
 
   devServer: {
@@ -35,6 +35,10 @@ module.exports = {
         use: {
           loader: "babel-loader",
         },
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,       // (1)
+        type: 'asset/resource',
       },
     ],
   },

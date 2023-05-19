@@ -5,3 +5,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.header {
+  @apply flex justify-between items-center p-4 bg-yellow-500 text-white w-full;
+}
+
+.badge {
+  @apply absolute top-0 right-10 h-10 w-11 rounded-full bg-red-500 text-white flex items-center justify-center text-xl;
+}
+
+.shoppingcart {
+  border-radius: 50%;
+  width: 55px;
+}
