@@ -16,10 +16,10 @@ export default function Header() {
       }
     };
 
-    document.addEventListener('cartUpdate', handleCustomEvent);
+    document.addEventListener('ADD_TO_CART', handleCustomEvent);
 
     return () => {
-      document.removeEventListener('cartUpdate', handleCustomEvent);
+      document.removeEventListener('ADD_TO_CART', handleCustomEvent);
     };
   }, [count]);
 

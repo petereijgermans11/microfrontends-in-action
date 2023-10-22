@@ -35,9 +35,10 @@ export default function OutdoorEvents() {
 function Card({ title, slug, description, image, imageTitle, price }) {
   
   const increment = () => {
-    const event = new CustomEvent('cartUpdate', {
+    const action = {
       detail: { action: 'increment' },
-    });
+    };
+    const event = new CustomEvent('ADD_TO_CART', action);
     document.dispatchEvent(event);
   };
 
