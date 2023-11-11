@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     federation({
-      name: "bookevent",
+      name: "reservation",
       filename: "remoteEntry.js",
       exposes: {
         "./OutdoorEvent": "./src/OutdoorEvent.tsx",

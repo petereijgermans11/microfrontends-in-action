@@ -49,10 +49,12 @@ function Card({ title, slug, description, image, imageTitle, price }) {
       </Link>
       <div className="p-6">
         <h2 className="title-price">{title} <strong>{price}</strong></h2>
-        <p className="text-gray-700">{description}</p>
-        <Link to={`/outdoorEvents/${slug}`} className="book-or-add-to-cart">Book event</Link>
+       
+        <Link to={`/outdoorEvents/${slug}`} className="book-or-add-to-cart">Reservation</Link>
         <br/><br/>
         <button className="book-or-add-to-cart" onClick={increment}>Add to Cart</button>
+        <br/><br/>
+        <p className="text-gray-700">{description}</p>
       </div>
     </div>
   );

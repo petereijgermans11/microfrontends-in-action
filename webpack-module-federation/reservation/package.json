@@ -1,5 +1,5 @@
 {
-  "name": "bookevent",
+  "name": "reservation",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --mode production",

@@ -7,7 +7,7 @@ import "./index.scss";
 import Header from "layout/Header";
 import Footer from "layout/Footer";
 import OutdoorEvents from "outdoorevents/OutdoorEvents";
-import OutdoorEvent from "bookevent/OutdoorEvent";
+import OutdoorEvent from "reservation/OutdoorEvent";
 
 const App = () => {
   const [count, setCount] = useState(0);

@@ -9,7 +9,7 @@ export default defineConfig({
     federation({
       name: "app",
       remotes: {
-        bookevent: "http://localhost:5001/assets/remoteEntry.js",
+        reservation: "http://localhost:5001/assets/remoteEntry.js",
         layout: "http://localhost:5002/assets/remoteEntry.js",        
         outdoorevents: "http://localhost:5003/assets/remoteEntry.js",
       },

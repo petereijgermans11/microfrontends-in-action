@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from "layout/Header";
 import Footer from "layout/Footer";
 import OutdoorEvents from "outdoorevents/OutdoorEvents";
-import OutdoorEvent from "bookevent/OutdoorEvent";
+import OutdoorEvent from "reservation/OutdoorEvent";
 
 
 export default function App() {
